@@ -1,0 +1,11 @@
+html{
+	background:#dbc3a3;
+}
+body{
+	width: 65%;
+	line-height: 120%;
+	position: absolute;
+	left: 120px;
+	top: 50px;
+	font-family: "Times New Roman", Times, serif;
+}
