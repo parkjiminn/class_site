@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:400,700');
+
+html{
+	font-family:'Comfortaa',cursive;
+}
+
+body{
+	width: 100%;
+	line-height: 170%;
+	position: absolute;
+    font-size: 24pt;
+}
+
+a {
+    cursor:pointer;
+    color: #334431
+}
+
+	/* unvisited link */
+	a:link {
+	    text-decoration: none;
+	}
+
+	/* mouse over link */
+	.color:hover {
+	    color: #97B8C2;
+	}
+	.grow:hover {
+		font-size: 200%;
+	}
+	.grow2:hover {
+		font-size: 400%;
+	}
+	.back:hover { 
+		background: #f8f1e5;
+	}
+	.back2:hover { 
+		background: #334431;
+		color: #f8f1e5;
+		padding: 20px;
+
+	}
+	
+
+.index{
+	background:#f8f1e5;
+	color:#334431;
+	margin-top: 170pt;
+	text-align: center;
+	line-height: 200%
+}
+
+.index2{
+	color: #f8f1e5;
+	background: #334431;
+	margin-top: 200pt;
+	text-align: center;
+	line-height: 200%
+
+}
+
+.welcome{
+	background: #334431 ;
+	color: #f8f1e5;
+	margin-top: 130pt;
+	text-align: center;
+}
+
+.stage{
+	color: #000000;
+	margin-top: 100pt;
+	font-size: 70pt;
+	line-height: 100%;
+	text-align: center;
+}
+
+
+.p4{
+	margin-top: 200pt;
+	text-align: center;
+	color:#334431;
+}
+
+.country{
+	text-align: center;
+	font-size: 50pt;
+	font-weight: Bold;
+	line-height: 150%;
+}
+
+.artschool{
+	margin-top: 70pt;
+	text-align: center;
+	font-size: 24pt;
+	line-height: 150%;
+
+}
+
+.date{
+	margin-top: 80pt;
+	text-align: center;
+	font-size: 20pt;
+	font-weight: Bold;
+	line-height: 150%;
+}
+
+.text{
+	
+	font-size: 20pt;
+	text-align: justify;
+	background: #334431; 
+	color: #f8f1e5;
+}
+
+.text2{
+
+	font-size: 22pt;
+	text-align: justify;
+	background:#f8f1e5; 
+	color: #334431;
+}
+
+#no {
+	font-size: 100px;
+	text-align: center;
+	margin-top: 200pt;
+	color: #D1B280;
+	font-family: 'Comfortaa', cursive;
+	font-weight: bold;
+	letter-spacing: 15px;
+}
+
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    width: 100%;
+}
+
+.flex-item {
+    width: 100%;
+}
+
+.flex-item1 {
+    width: 100%;
+    
+}
+
+.flex-item2 {
+    width: 47.5%;
+   
+}
+
+.flex-item3 {
+    width: 33%;
+   
+}
+
