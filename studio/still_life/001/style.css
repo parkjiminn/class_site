@@ -204,7 +204,6 @@ html{
 	position: absolute;
 	border-radius: 5px 5px 0 0;
 	opacity: .5;
-	z-index: 1;
 }
 
 
@@ -217,7 +216,6 @@ html{
 	position: absolute;
 	border-radius: 40px 40px 15px 15px;
 	opacity: .5;
-	z-index: 1;
 }
 
 #grad1 {
