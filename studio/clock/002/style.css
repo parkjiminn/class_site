@@ -2,17 +2,64 @@
 	margin:0;
 	padding:0;
 }
+/*background gradient*/
+body {
+	width: 100vh;
+	height: 100vh;
+	color: #fff;
+	background: linear-gradient(180deg, #b1e4fb, #2571ca, #0d073f);
+	background-size: 600% 600%;
+	-webkit-animation: sky 20s ease infinite;
+	-moz-animation: sky 20s ease infinite;
+	animation: sky 20s ease infinite;
+}
+
+@-webkit-keyframes sky {
+	0% {
+		background-position: 90% 0%
+	}
+	50% {
+		background-position: 11% 100%
+	}
+	100% {
+		background-position: 90% 0%
+	}
+}
+
+@-moz-keyframes sky {
+	0% {
+		background-position: 90% 0%
+	}
+	50% {
+		background-position: 11% 100%
+	}
+	100% {
+		background-position: 90% 0%
+	}
+}
+
+@keyframes sky {
+	0% {
+		background-position: 90% 0%
+	}
+	50% {
+		background-position: 11% 100%
+	}
+	100% {
+		background-position: 90% 0%
+	}
+}
 
 /*plane rotation*/
 @keyframes rot {
 	from {
 		transform: rotate(0deg)
-		           translate(-275px)
+		           translate(-225px)
 		           rotate(0deg);
 	}
 	to {
 		transform: rotate(360deg)
-		           translate(-275px) 
+		           translate(-225px) 
 		           rotate(-360deg);
 	}
 }
@@ -21,7 +68,7 @@
 	position: absolute;
 	width: 10%; 
 	height: 40%;
-	top: 75%; left: 7%; bottom: 0; right: 0;
+	top: 85%; left: 7%; bottom: 0; right: 0;
 	margin: auto;
 	position: absolute;
 	transform-origin: -200% center;
@@ -32,12 +79,7 @@ img {
 	margin-top: 10%;
 }
 
-/*background*/
-#sky {
-    height: 100vh;
-    background: #b1e4fb; 
-    background: linear-gradient(#b1e4fb, #2571ca); 
- }
+
 
 /*ovals*/
 .oval1 {

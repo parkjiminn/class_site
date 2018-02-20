@@ -59,12 +59,12 @@ body {
 @keyframes rot {
 	from {
 		transform: rotate(0deg)
-		           translate(-225px)
+		           translate(-475px)
 		           rotate(0deg);
 	}
 	to {
 		transform: rotate(360deg)
-		           translate(-225px) 
+		           translate(-475px) 
 		           rotate(-360deg);
 	}
 }
@@ -73,11 +73,11 @@ body {
 	position: absolute;
 	width: 10%; 
 	height: 40%;
-	top: 85%; left: 7%; bottom: 0; right: 0;
+	top: 30%; left: 7%; bottom: 0; right: 0;
 	margin: auto;
 	position: absolute;
 	transform-origin: -200% center;
-	animation: rot 3s infinite linear;
+	animation: rot 5s infinite linear;
 }
 img { 
 	width: 50%; height: auto;;
@@ -99,13 +99,13 @@ img {
 	position: absolute;
 	top:50%;
 	left:50%;
-	width: 1900px;
+	width: 950px;
 	height: 950px;
 	border: solid 5px #ffffff;
-	opacity: .2;
-	-moz-border-radius: 950px / 475px;
-	-webkit-border-radius: 950px / 475px;
-	border-radius: 950px / 475px;
+	opacity: .5;
+	-moz-border-radius: 475px;
+	-webkit-border-radius: 475px;
+	border-radius: 475px;
 }
 
 .oval2 {
@@ -113,13 +113,13 @@ img {
 	position: absolute;
 	top:55.5%;
 	left:50%;
-	width: 1700px;
+	width: 850px;
 	height: 850px;
 	border: solid 5px #ffffff;
-	opacity: .2;
-	-moz-border-radius: 850px / 425px;
-	-webkit-border-radius: 850px / 425px;
-	border-radius: 850px / 425px;
+	opacity: .5;
+	-moz-border-radius: 425px;
+	-webkit-border-radius: 425px;
+	border-radius: 425px;
 }
 
 .oval3 {
@@ -127,13 +127,13 @@ img {
 	position: absolute;
 	top:60.5%;
 	left:50%;
-	width: 1500px;
+	width: 750px;
 	height: 750px;
 	border: solid 5px #ffffff;
-	opacity: .2;
-	-moz-border-radius: 750px / 375px;
-	-webkit-border-radius: 750px / 375px;
-	border-radius: 750px / 375px;
+	opacity: .5;
+	-moz-border-radius: 375px;
+	-webkit-border-radius: 375px;
+	border-radius: 375px;
 }
 
 .oval4 {
@@ -141,13 +141,13 @@ img {
 	position: absolute;
 	top:66%;
 	left:50%;
-	width: 1300px;
+	width: 650px;
 	height: 650px;
 	border: solid 5px #ffffff;
-	opacity: .2;
-	-moz-border-radius: 650px / 325px;
-	-webkit-border-radius: 650px / 325px;
-	border-radius: 650px / 325px;
+	opacity: .5;
+	-moz-border-radius: 325px;
+	-webkit-border-radius: 325px;
+	border-radius: 325px;
 }
 
 .oval5 {
@@ -155,13 +155,13 @@ img {
 	position: absolute;
 	top:71%;
 	left:50%;
-	width: 1100px;
+	width: 550px;
 	height: 550px;
 	border: solid 5px #ffffff;
-	opacity: .2;
-	-moz-border-radius: 550px / 275px;
-	-webkit-border-radius: 550px / 275px;
-	border-radius: 550px / 275px;
+	opacity: .5;
+	-moz-border-radius: 275px; 
+	-webkit-border-radius: 275px; 
+	border-radius: 275px;
 }
 
 .oval6 {
@@ -169,13 +169,13 @@ img {
 	position: absolute;
 	top:76.5%;
 	left:50%;
-	width: 900px;
+	width: 450px;
 	height: 450px;
 	border: solid 5px #ffffff;
-	opacity: .2;
-	-moz-border-radius: 450px / 225px;
-	-webkit-border-radius: 450px / 225px;
-	border-radius:450px / 225px;
+	opacity: .5;
+	-moz-border-radius: 225px;
+	-webkit-border-radius: 225px;
+	border-radius: 225px;
 }
 
 .oval7 {
@@ -183,11 +183,12 @@ img {
 	position: absolute;
 	top:81.5%;
 	left:50%;
-	width: 700px;
+	width: 350px;
 	height: 350px;
 	border: solid 5px #ffffff;
-	opacity: .2;
-	-moz-border-radius: 350px / 175px;
-	-webkit-border-radius: 350px / 175px;
-	border-radius: 350px / 175px;
+	opacity: .5;
+	-moz-border-radius: 175px;
+	-webkit-border-radius:  175px;
+	border-radius: 175px;
 }
+
