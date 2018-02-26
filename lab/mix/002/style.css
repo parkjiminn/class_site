@@ -1,0 +1,128 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+
+html, body{
+	overflow: hidden;
+	height: 100%
+}
+
+/*duck*/
+@keyframes swing{
+	from { transform: rotate(-20deg); }
+	to { transform: rotate(20deg);}
+}
+#duck {
+	animation: swing ease-in-out 2s infinite alternate;
+	position: absolute;
+	left: 15%;
+	top: 35%;
+}
+#duck2 {
+	animation: swing ease-in-out 1.8s infinite alternate;
+	position: absolute;
+	left: 60%;
+	top: 60%;
+}
+#duck3 {
+	animation: swing ease-in-out 4s infinite alternate;
+	position: absolute;
+	left: 75%;
+	top: 33%;
+}
+#duck4 {
+	animation: swing ease-in-out 3s infinite alternate;
+	position: absolute;
+	left: 80%;
+	top: 35%;
+}
+
+/*donut tube*/
+@keyframes move {
+	from{ left: 40%; transform: rotate(20deg); top: 50%; }
+	to{	left: 2%; transform: rotate(-10deg); top: 60%; }
+}
+@keyframes moving {
+	from{ left: 70%; transform: rotate(20deg); top: 45%; }
+	to{	left: 89%; transform: rotate(-10deg); top: 65%; }
+}
+@keyframes moving_ {
+	from{ left: 30%; transform: rotate(20deg); top: 35%; }
+	to{	left: 65%; transform: rotate(-10deg); top: 35%; }
+} 
+#donut {
+	animation: move 3s ease-in-out infinite alternate;
+	position: absolute;
+}
+#donut2 {
+	animation: moving 5s ease-in-out infinite alternate;
+	position: absolute;
+}
+#donut3{
+	animation: moving_ 5s ease-in-out infinite alternate;
+	position: absolute;
+}
+
+/*bubble*/
+@keyframes fall {
+	from { top:-100vh; }
+	to { top:100vh;}
+}
+
+#bubble {
+	animation: fall 13s infinite linear ;
+	position: absolute;
+	left: 70%;
+}
+
+#bubble2 {
+	animation: fall 7s infinite linear ;
+	position: absolute;
+	left: 40%;
+}
+
+#bubble3 {
+	animation: fall 35s infinite linear ;
+	position: absolute;
+	left: 10%;
+}
+
+#bubble4 {
+	animation: fall 25s infinite linear ;
+	position: absolute;
+	top: 10%;
+	left: 60%;
+}
+.bubble3{
+	animation: fall 10s infinite linear ;
+	position: absolute;
+	left: 4%;
+}
+.bubble4{
+	animation: fall 35s infinite linear ;
+	position: absolute;
+	left: 70%
+}
+.bubble5{
+	animation: fall 15s infinite linear ;
+	position: absolute;
+	left: 50%
+	top:-10%;
+}
+
+
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    width: 100%;
+}
+.flex-item2{
+    width: 50%;
+   
+}
+.flex-item3 {
+    width: 33%;
+   
+}

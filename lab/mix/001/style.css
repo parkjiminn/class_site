@@ -1,0 +1,85 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+
+html,body{
+	overflow: hidden;
+	height: 100%;
+}
+
+/*background*/
+.gif{
+	transform: translate(-50%,-50%);
+	position: absolute;
+	top:50%;
+	left:50%;
+}
+
+/*falling rain*/
+@keyframes fall {
+	from { 
+		top:-100vh;
+	}
+	to {
+		top:100vh;
+	}
+}
+#r1{
+	animation: fall 23s infinite linear ;
+	position: absolute;
+	left: 4%;
+	opacity: .5;
+	
+}
+#r2 {
+	animation: fall 32s infinite linear ;
+	position: absolute;
+	left: 20%;
+	opacity: .5;
+}
+#r3 {
+	animation: fall 20s infinite linear ;
+	position: absolute;
+	top: 10%;
+	left: 55%;
+	opacity: .5;
+}
+#r4 {
+	animation: fall 19s infinite linear ;
+	position: absolute;
+	left: 75%;
+	opacity: .5;
+}
+
+/*window rain*/
+.rain1{
+	transform: translate(-50%,-50%);
+	position: absolute;
+	top:50%;
+	left:50%;
+	opacity: .5;
+}
+
+.rain2{
+	transform: translate(-50%,-50%);
+	position: absolute;
+	top:20%;
+	left:50%;
+}
+
+/*container*/
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    width: 100%;
+}
+.flex-item2{
+    width: 50%;
+   
+}
+.flex-item3 {
+    width: 33%;
+   
+}
