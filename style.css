@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:400,700');
+*{
+	margin:0;
+	padding:0;
+}
+
+html{
+	background:#EFEFEF;
+}
+
+body{
+    width:100%;
+   	font-family: 'Open Sans', sans-serif;
+    font-size: 12pt;
+    color:#5A4E4D;
+}
+
+.title{
+	font-size: 53px;
+	text-align: center;
+	padding-top: 100pt;
+	color: #D1B280;
+	font-family: 'Comfortaa', cursive;
+	font-weight: bold;
+	letter-spacing: 15px;
+}
+
+.title2{
+	font-size: 28pt;
+	padding-top: 50pt;
+	color: #D1B280;
+	font-weight: bold;
+	letter-spacing: 4px;
+	font-family: 'Comfortaa', cursive;
+}
+
+.title3{
+	font-size: 18pt;
+	color: #E38B75;
+	cursor:pointer;
+}
+
+.list{
+	font-size: 14pt;
+	text-align: left;
+	padding-left:30pt;
+	padding-top: 15pt;
+	line-height: 24pt;
+	color: #5A4E4D;
+	word-spacing: 40px;
+}
+
+a {
+  text-decoration: none;
+  color: #E38B75;
+}
+
+ a:hover {
+
+}
+
+
+.list a {
+  text-decoration: none;
+  color: #5A4E4D;
+}
+
+.list a:hover {
+
+}
