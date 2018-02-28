@@ -91,7 +91,7 @@ img {
 	margin: auto;
 	-webkit-transform: rotate(-45deg) translateX(45px) rotate(45deg);
 	transform: rotate(-45deg) translateX(45px) rotate(45deg);
-	animation: cent 10s linear infinite;
+	animation: cent 600s linear infinite;
 }
 
 /*bottomright plane*/
@@ -115,7 +115,7 @@ img {
 	margin: auto;
 	-webkit-transform: rotate(-46deg) translateX(40px) rotate(46deg);
 	transform: rotate(-46deg) translateX(40px) rotate(46deg);
-	animation: br 10s linear infinite;
+	animation: br 720s linear infinite;
 
 }
 
@@ -140,7 +140,7 @@ img {
 	margin: auto;
 	-webkit-transform: rotate(-45deg) translateX(45px) rotate(45deg);
 	transform: rotate(-45deg) translateX(45px) rotate(45deg);
-	animation: tl 10s linear infinite;
+	animation: tl 480s linear infinite;
 
 }
 
