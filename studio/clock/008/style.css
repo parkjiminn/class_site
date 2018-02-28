@@ -41,25 +41,14 @@ html,body {
 	margin: 5px;
 }
 
+
 .text {
 	transform: translate(-50%,-50%);
 	position: absolute;
-	top: 56%;
+	top: 44.5%;
 	left: 50%;
 	font-family: 'Glegoo', serif;
-	letter-spacing: 2pt;
-	font-size: 14pt;
-	padding: 5px;
-	margin: 5px;
-}
-
-.text2 {
-	transform: translate(-50%,-50%);
-	position: absolute;
-	top: 43%;
-	left: 50%;
-	font-family: 'Glegoo', serif;
-	font-size: 10.5pt; 
+	font-size: 12pt; 
 	letter-spacing: 1pt;
 	padding: 5px;
 	margin: 5px;
