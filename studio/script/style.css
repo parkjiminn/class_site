@@ -1,0 +1,14 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+html,body{
+	overflow: hidden;
+	font-family: "helvetica", sans-serif;
+	font-size: 15pt;
+	line-height: 65pt;
+	padding-left: 90px;
+	padding-top: 40pt;
+	position: relative;
+}
