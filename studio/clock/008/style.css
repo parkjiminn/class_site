@@ -73,9 +73,11 @@ img {
 /*center plane*/
 @keyframes cent {
 	from { 
+		-webkit-transform: rotate(0deg) translateX(45px); 
 		transform: rotate(0deg) translateX(45px); 
 	}
     to   { 
+    	-webkit-transform: rotate(-360deg) translateX(45px); 
     	transform: rotate(-360deg) translateX(45px); 
     }
 }
@@ -83,20 +85,23 @@ img {
 #plane1 { 
 	position: absolute;
 	width: 10%; 
-	height: 93%;
-   	top: 3.5%;
+	height: 91%;
+   	top: 4.1%;
 	left:45%;
 	margin: auto;
+	-webkit-transform: rotate(-45deg) translateX(45px) rotate(45deg);
 	transform: rotate(-45deg) translateX(45px) rotate(45deg);
-	animation: cent 600s linear infinite;
+	animation: cent 10s linear infinite;
 }
 
 /*bottomright plane*/
 @keyframes br {
 	from { 
+		-webkit-transform: rotate(20deg) translateX(45px);
 		transform: rotate(20deg) translateX(45px) ; 
 	}
     to   { 
+    	-webkit-transform: rotate(-340deg) translateX(45px);
     	transform: rotate(-340deg) translateX(45px) ; 
     }
 }
@@ -104,21 +109,24 @@ img {
 #plane2 { 
 	position: absolute;
 	width: 10%; 
-	height: 155%;
+	height: 153%;
     left: 85%;
-    top: 42.5%;
+    top: 44%;
 	margin: auto;
+	-webkit-transform: rotate(-46deg) translateX(40px) rotate(46deg);
 	transform: rotate(-46deg) translateX(40px) rotate(46deg);
-	animation: br 720s linear infinite;
+	animation: br 10s linear infinite;
 
 }
 
 /*topleft plane*/
 @keyframes tl{
 	from { 
+		-webkit-transform:rotate(-15deg) translateX(45px); 
 		transform: rotate(-15deg) translateX(45px); 
 	}
     to   { 
+    	-webkit-transform: rotate(345deg) translateX(45px);
     	transform: rotate(345deg) translateX(45px); 
     }
 }
@@ -126,21 +134,24 @@ img {
 #plane3 { 
 	position: absolute;
 	width: 10%; 
-	height: 89%;
+	height: 87%;
     left: -12.5%;
     top: -24.5%;
 	margin: auto;
+	-webkit-transform: rotate(-45deg) translateX(45px) rotate(45deg);
 	transform: rotate(-45deg) translateX(45px) rotate(45deg);
-	animation: tl 480s linear infinite;
+	animation: tl 10s linear infinite;
 
 }
 
 /*topright plane*/
 @keyframes tr {
 	from { 
+		-webkit-transform: rotate(-60deg) translateX(45px); 
 		transform: rotate(-60deg) translateX(45px); 
 	}
     to   { 
+    	-webkit-transform: rotate(300deg) translateX(45px);
     	transform: rotate(300deg) translateX(45px); 
     }
 }
@@ -152,6 +163,7 @@ img {
    	top:5%;
 	left:80%;
 	margin: auto;
+	-webkit-transform: rotate(-45deg) translateX(45px) rotate(45deg);
 	transform: rotate(-45deg) translateX(45px) rotate(45deg);
 	animation: tr 300s linear infinite;
 }
@@ -159,9 +171,11 @@ img {
 /*bottomleft plane*/
 @keyframes bl {
 	from { 
+		-webkit-transform: rotate(-90deg) translateX(45px); 
 		transform: rotate(-90deg) translateX(45px); 
 	}
     to   { 
+    	-webkit-transform: rotate(270deg) translateX(45px); 
     	transform: rotate(270deg) translateX(45px); 
     }
 }
@@ -173,6 +187,7 @@ img {
    	top: 69.5%;
 	left: 8%;
 	margin: auto;
+	-webkit-transform: rotate(-45deg) translateX(45px) rotate(45deg);
 	transform: rotate(-45deg) translateX(45px) rotate(45deg);
 	animation: bl 500s linear infinite;
 }
