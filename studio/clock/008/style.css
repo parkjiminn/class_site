@@ -45,10 +45,10 @@ html,body {
 .text {
 	transform: translate(-50%,-50%);
 	position: absolute;
-	top: 44.5%;
+	top: 44%;
 	left: 50%;
 	font-family: 'Glegoo', serif;
-	font-size: 12pt; 
+	font-size: 13pt; 
 	letter-spacing: 1pt;
 	padding: 5px;
 	margin: 5px;
