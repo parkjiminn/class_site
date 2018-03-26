@@ -1,0 +1,47 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+html,body{
+	background:#dfdfdf;
+}
+
+img{
+	position: relative;
+	float:left;
+	width:20%;
+	height:20vw;
+}
+
+h1{
+	text-align: center;
+	margin:30px auto;
+	line-height: 50px;
+	letter-spacing: 3px;
+	color: white;
+	font-family: helvetica;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+select{
+	font-size:24px;
+	margin:14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
