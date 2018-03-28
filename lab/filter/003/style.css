@@ -1,0 +1,65 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+html,body{
+	background:#dfdfdf;
+}
+
+img{
+	position: relative;
+	float:left;
+	width:20%;
+	height:20vw;
+}
+
+h1{
+	text-align: center;
+	margin:30px auto;
+	line-height: 50px;
+	letter-spacing: 3px;
+	color: white;
+	font-family: helvetica;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+select{
+	font-size:24px;
+	margin:14px;
+}
+
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    width: 100vw;
+    padding-top:40px;
+    background-color: ;
+}
+
+.flex-item {
+	font-family: helvetica;
+	font-size: 14pt;
+ 	width: 33%;
+  	margin: 24px;
+  	display: flex;
+  	text-decoration: underline;
+}
+
+/*.cat{
+	text-align: right;
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
