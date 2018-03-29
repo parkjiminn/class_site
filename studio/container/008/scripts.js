@@ -1,14 +1,5 @@
 $(function(){
 
-//  $(".draggable").on("click",function(){
-
-//   $(".swing").hide();
-//   $(".ground").hide();
-//   $(".wall").hide();
-//   $(".draggable").show();
-// });
-
-
  $(".swing").on("click",function(){
 
   $(".wall").hide();
