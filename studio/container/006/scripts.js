@@ -1,12 +1,12 @@
 $(function(){
 
- $(".swing").on("click",function(){
+ // $(".swing").on("click",function(){
 
-  $(".wall").hide();
-  $(".ground").hide();
-  $(".draggable").hide();
-  $(".swing").show();
- });
+ //  $(".wall").hide();
+ //  $(".ground").hide();
+ //  $(".draggable").hide();
+ //  $(".swing").show();
+ // });
 
  $(".ground").on("click",function(){
 
