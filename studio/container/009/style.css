@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+*{
+    margin:0;
+    padding:0;
+}
+
+html, body{
+    overflow: hidden;
+    background: url(assets/roomsmall.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+img{
+    position: absolute;
+}
+
+input {
+    position: relative;
+}
+
+@keyframes swing {
+    0% { transform: rotate(5deg); }
+    100% { transform: rotate(-5deg); }
+}
+
+.swing {
+    animation: swing ease-in-out 1s infinite alternate;
+    transform-origin: center -20px;
+    float:left;
+}
+
+.info{
+    width: 1001.5px;
+    height: 584px;
+    top:.25%;
+    left:11.8%;
+    opacity: .85;
+    position: absolute;
+    background-color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14.3pt;
+    text-align:  justify;
+    padding: 65px 150px 0 150px;
+    line-height: 48px;
+    /*letter-spacing: 1px;*/
+}
+
+.draggable { 
+    cursor: move;
+}
+
