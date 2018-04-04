@@ -31,18 +31,22 @@ input {
     float:left;
 }
 
-.info{
-    width: 1001.5px;
-    height: 584px;
+#box{
+	width: 990px;
+    height: 583px;
     top:.25%;
     left:11.8%;
     opacity: .85;
     position: absolute;
     background-color: white;
+}
+
+.info{
+    
     font-family: 'Raleway', sans-serif;
     font-size: 14.3pt;
     text-align:  justify;
-    padding: 65px 150px 0 150px;
+    padding: 60px 150px 0 150px;
     line-height: 48px;
     /*letter-spacing: 1px;*/
 }
