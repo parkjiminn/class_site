@@ -9,7 +9,7 @@ html, body{
     overflow: hidden;
     background: url(assets/roomsmall.jpg);
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: cover;
 }
 
 img{
