@@ -26,7 +26,7 @@ html, body {
 .test{
     position:absolute;
     top: 40%;
-    left: -8%; 
+    left: -4%; 
     width: 120%; 
     transform: rotate(25deg);
 }
