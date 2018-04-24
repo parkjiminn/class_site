@@ -1,0 +1,110 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    color: #404040;
+    font-family: helvetica;
+    font-size: 80px;
+    font-weight: lighter;
+    background: #e6b3cc; /*pink*/
+    overflow: hidden;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    color: #404040;
+    font-family: helvetica;
+    font-size: 80px;
+    font-weight: lighter;
+    background: #e6b3cc; /*pink*/
+    overflow: hidden;
+}
+
+/*2nd*/
+.test{
+    position:absolute;
+    top: 40%;
+    left: -8%; 
+    width: 120%; 
+    transform: rotate(25deg);
+}
+
+.test2{
+    position:absolute;
+    top: 40%;
+    left: -5%;  
+    width: 120%;
+    transform: rotate(25deg);
+}
+/*3rd*/
+.test3, .test4{
+    position:absolute;
+    top: 30%;
+    left: 7%;
+    width: 120%; 
+    transform: rotate(75deg);
+}
+/*4th*/
+.test5, .test6{
+    position:absolute;
+    top: 45%;
+    left: -7%;  
+    width: 150%; 
+    transform: rotate(55deg);
+}
+
+/*thumb*/
+.test7, .test8{   
+    position:absolute;
+    top: 26%;
+    left: 3%;
+    width: 120%; 
+    transform: rotate(40deg);
+} 
+.test8{   
+    position:absolute;
+    top: 32%;
+    left: 3%;
+    width: 120%; 
+    transform: rotate(40deg);
+} 
+/*both*/
+.test9{
+    position:absolute;
+    top: 43%;
+    left: -37%;
+    width: 150%; 
+    transform: rotate(120deg);
+}
+.test10{
+    position:absolute;
+    top: 51%;
+    left: -39%;
+    width: 160%; 
+    transform: rotate(140deg);
+}
+/*bothleft*/
+.test11{
+    position:absolute;
+    top: 32%;
+    left: -30%; 
+    width: 150%;  
+    transform: rotate(60deg);
+}
+.test12{
+    position:absolute;
+    top: 32%;
+    left: -13%; 
+    width: 135%;  
+    transform: rotate(55deg);
+}
+/*bothright*/
+.test13, .test14{
+    position:absolute;
+    top: 30%;
+    left: -10%;
+    width: 110%; 
+    transform: rotate(-15deg);
+}
